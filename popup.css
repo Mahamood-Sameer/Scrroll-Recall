@@ -1,0 +1,92 @@
+.container{
+    background-image: linear-gradient(#5D55FF,#2083F8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    flex-direction: column;
+    width: 360px;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 5px;
+    border: 2px solid white;
+    background-color: #F5DE0D;
+}
+
+.header h1{
+    color: black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.icon{
+    font-size: 40px !important;
+    padding: 10px;
+    color: black;
+    animation-name: rotation;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+    animation-delay: 0.5s;
+    transition-property: all;
+    transition-duration: 1s;
+}
+
+@keyframes rotation {
+
+    0%{
+        transform: rotate(0deg);
+    }
+    
+    100%{
+        transform: rotate(360deg);
+    }
+    
+}
+
+.btn{
+    width: fit-content;
+    background-color: black;
+    border: 1px solid white;
+    border-left: 10px solid white;
+    border-right: 10px solid white;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    margin: 5px;
+    width:220px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transition-property: all;
+    transition-duration: 0.2s;
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+}
+.small__icons{
+    font-size: 12px !important;
+    padding: 3px;
+}
+
+.contents{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.contents p{
+    color: whitesmoke;
+    font-size: 14px;
+    font-weight: 800;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+
