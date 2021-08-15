@@ -22,5 +22,10 @@
             "js":["content.js"]
         }
     ],
-    "permissions":["activeTabs","tabs"]
+    "permissions": [
+        "tabs",
+        "activeTab",
+        "http://*/",
+        "https://*/"
+    ]
 }
